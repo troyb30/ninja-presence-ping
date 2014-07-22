@@ -9,7 +9,7 @@ Presence.prototype.name = 'Presence - Lan Ping';
 
 Presence.prototype.init = function() {
 	//you should edit this line for devices you would like to ping.
-	this._hosts = ['192.168.1.4','192.168.1.5'];
+	//this._hosts = ['192.168.1.4','192.168.1.5'];
 	this._opts.hosts = this._opts.hosts || {};
 		
 	this._ping = require ("ping");
